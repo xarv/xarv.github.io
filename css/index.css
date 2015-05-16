@@ -1,0 +1,50 @@
+html,body{
+margin:0%;
+padding:0%;
+
+}
+body{
+height:100%;
+width:100%;
+background-size:cover;
+background-repeat:no-repeat;
+
+background:#000;
+}
+.canvas{
+	height:100%;
+	width:100%;
+	position:relative;
+	background: url("../img/indiecutsbackground.png");
+	background-repeat:no-repeat;
+	text-align: center;
+	
+}
+.ic_splash_screen{
+	height:100%;
+	width: 40%;
+	vertical-align:middle;
+	position:relative;
+	display:inline-block;
+	margin-right:10%;
+	background: url("../img/ic_phone_normal.png");
+	
+	  background-repeat: no-repeat !important;
+}
+.ic_play_logo{
+	  height: 63%;
+		width: 40%;
+		
+	  /* height: auto; */
+	  display: inline-block;
+	  vertical-align: middle;
+	  background-repeat: no-repeat !important;
+	  background-size:contain;
+	background: url("../img/ic_play_small.png")
+}
+.divHelper{
+	height: 100%;
+	display: inline-block;
+	width: 0;
+	vertical-align: middle;
+}
